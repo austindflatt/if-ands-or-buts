@@ -10,7 +10,8 @@ else if (person1 >= person2) {
     const bill = person1 + person2;
     const amountOwed = bill / 2;
     console.log("Person 2 owes Person 1", amountOwed)
-} else if (person2 >= person1) {
+} 
+else if (person2 >= person1) {
     const bill = person1 + person2;
     const amountOwed = bill / 2;
     console.log("Person 1 owes Person 2", amountOwed)
